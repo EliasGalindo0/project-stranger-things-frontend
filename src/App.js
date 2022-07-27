@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <StrangerThings />
+      {process.env.REACT_APP_DEV === 'dev' && <h1>Em desenvolvimento</h1>}
     </div>
   );
 }
