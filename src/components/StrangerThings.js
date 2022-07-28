@@ -6,8 +6,6 @@ require('dotenv').config();
 
 const DEFAULT_TIMEOUT = 30000;
 
-// default
-
 const getRealityClass = (hereIsTheUpsideDownWorld) => (
   hereIsTheUpsideDownWorld ? 'upside-down' : 'stranger-things'
 );
